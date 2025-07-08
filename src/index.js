@@ -1,3 +1,3 @@
-import {getData} from "./fetch"
+import {getTempCelsius, getTempFahrenheit} from "./fetch"
 
-console.log(getData());
+console.log(getTempCelsius());
