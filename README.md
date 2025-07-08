@@ -1,7 +1,3 @@
-¡Claro, Manuel! Aquí te dejo una propuesta de **README.md** clara, sencilla y profesional para tu repositorio **Weather App**. Te ayudará a mostrar de forma organizada qué hace tu proyecto, cómo funciona y cómo probarlo.
-
----
-
 ````markdown
 # 🌤️ Weather App
 
