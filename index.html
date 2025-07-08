@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherNow - Simple Weather</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <header>
+ <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>
+                <svg class="thermometer-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                </svg>
+                WeatherNow
+            </h1>
+            <p>Get instant weather updates for any location</p>
+        </div>
+
+        <!-- Search Section -->
+        <div class="search-section">
+            <div class="input-container">
+                <svg class="location-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    id="locationInput"
+                    placeholder="Enter city name..."
+                >
+            </div>
+
+            <button class="search-button" id="searchButton">
+                <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                </svg>
+                Get Weather
+            </button>
+
+            <!-- Temperature Unit Toggle -->
+            <div class="toggle-container">
+                <span class="toggle-label" id="celsiusLabel">°C</span>
+                <div class="toggle-switch" id="tempToggle">
+                    <div class="toggle-slider"></div>
+                </div>
+                <span class="toggle-label inactive" id="fahrenheitLabel">°F</span>
+            </div>
+        </div>
+
+        <!-- Weather Display -->
+        <div class="weather-card" id="weatherCard">
+            <div class="weather-location" id="weatherLocation"></div>
+            <div class="weather-condition" id="weatherCondition"></div>
+            <div class="weather-temperature" id="weatherTemperature"></div>
+            <div class="weather-unit" id="weatherUnit">Celsius</div>
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="emptyState">
+            <div class="empty-icon">
+                <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                </svg>
+            </div>
+            <p class="empty-text">Enter a location to see the weather</p>
+        </div>
+    </div>
+  </body>
+</html>
