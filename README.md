@@ -73,4 +73,3 @@ Puedes seguir mi aprendizaje y otros proyectos en:
 ---
 
 ```
-
