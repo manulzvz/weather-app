@@ -35,4 +35,7 @@ module.exports = {
       },
     ],
   },
+  stats: {
+    warningsFilter: [/Critical dependency:/],
+  },
 };
