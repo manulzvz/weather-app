@@ -1,3 +1,8 @@
+¡Claro, Manuel! Aquí te dejo una propuesta de **README.md** clara, sencilla y profesional para tu repositorio **Weather App**. Te ayudará a mostrar de forma organizada qué hace tu proyecto, cómo funciona y cómo probarlo.
+
+---
+
+````markdown
 # 🌤️ Weather App
 
 Una aplicación web que permite consultar el clima actual de cualquier ciudad utilizando una API pública.
@@ -38,3 +43,34 @@ Puedes probar la aplicación funcionando aquí:
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/manulzvz13/weather-app.git
+````
+
+2. Ingresa a la carpeta del proyecto:
+
+   ```bash
+   cd weather-app
+   ```
+3. Abre el archivo `index.html` en tu navegador.
+
+*Nota:* Necesitarás una API Key gratuita de [OpenWeatherMap](https://openweathermap.org/) para que funcione correctamente. Puedes reemplazarla en el archivo `app.js`.
+
+---
+
+## 📈 Próximos pasos
+
+* Agregar búsqueda por geolocalización del navegador.
+* Mejorar el diseño responsive.
+* Implementar tests básicos.
+
+---
+
+## 📫 Contacto
+
+Puedes seguir mi aprendizaje y otros proyectos en:
+[LinkedIn](https://www.linkedin.com/in/manulzvz)
+[GitHub](https://github.com/manulzvz13)
+
+---
+
+```
+
