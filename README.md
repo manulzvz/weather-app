@@ -38,7 +38,7 @@ Puedes probar la aplicación funcionando aquí:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/manulzvz13/weather-app.git
+   git clone https://github.com/manulzvz/weather-app.git
 ````
 
 2. Ingresa a la carpeta del proyecto:
@@ -64,7 +64,7 @@ Puedes probar la aplicación funcionando aquí:
 
 Puedes seguir mi aprendizaje y otros proyectos en:
 [LinkedIn](https://www.linkedin.com/in/manulzvz)
-[GitHub](https://github.com/manulzvz13)
+[GitHub](https://github.com/manulzvz)
 
 ---
 
