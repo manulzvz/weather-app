@@ -1,4 +1,3 @@
-````markdown
 # 🌤️ Weather App
 
 Una aplicación web que permite consultar el clima actual de cualquier ciudad utilizando una API pública.
@@ -39,7 +38,7 @@ Puedes probar la aplicación funcionando aquí:
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/manulzvz/weather-app.git
-````
+   ```
 
 2. Ingresa a la carpeta del proyecto:
 
@@ -66,6 +65,4 @@ Puedes seguir mi aprendizaje y otros proyectos en:
 [LinkedIn](https://www.linkedin.com/in/manulzvz)
 [GitHub](https://github.com/manulzvz)
 
----
 
-```
